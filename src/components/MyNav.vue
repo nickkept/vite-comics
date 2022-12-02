@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="container d-flex justify-content-between align-items-baseline">
+        <div class="container py-3 d-flex justify-content-between align-items-baseline">
             <div>
                 <img src="/dc-logo.png" alt="">
             </div>
@@ -36,10 +36,14 @@ methods: {},
 };
 </script>
 <style lang="scss">
+// @use "./partials/variables" as *;
     ul{
         list-style: none;
         a{
         text-decoration: none;
+        margin-left: 1rem;
+        font-weight: bold;
+        color: #303030;
     }
     }
 </style>
