@@ -1,18 +1,21 @@
 <template>
     <header>
-        <div class="container py-3 d-flex justify-content-between align-items-baseline">
-            <div>
-                <img src="/dc-logo.png" alt="">
-            </div>
-            <div>
-                <ul class="d-flex">
-                    <li v-for="(link) in links">
-                        <a href="">{{link}}</a>
-                    </li>
-                </ul>
+        <div class="container ">
+            <div class="py-3 d-flex justify-content-between align-items-baseline">
+                <div>
+                    <img src="/dc-logo.png" alt="">
+                </div>
+                <div>
+                    <ul class="d-flex nav-links">
+                        <li v-for="(link) in links">
+                            <a href="">{{link}}</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
+
 </template>
 <script>
 export default {
@@ -35,15 +38,18 @@ export default {
 methods: {},
 };
 </script>
-<style lang="scss">
-// @use "./partials/variables" as *;
-    ul{
-        list-style: none;
-        a{
+<style scoped lang="scss">
+// @use "../styles/partials/variables" as *;
+.nav-links{
+    margin-right: 5rem;
+    list-style: none;
+    a{
         text-decoration: none;
         margin-left: 1rem;
         font-weight: bold;
-        color: #303030;
+        font-size: .8rem;
+        color: #797979;
     }
-    }
+    
+}
 </style>
