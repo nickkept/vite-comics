@@ -164,27 +164,23 @@ export default {
 
 </script>
 <style scoped lang="scss">
-// @use "./partials/variables" as *;
 .footer-section {
     background-image: url('/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     .container {
-        // padding: 1.5rem 0;
         background-image: url('/dc-logo-bg.png');
         background-repeat: no-repeat;
         background-position: right;
             ul {
                 list-style: none;
-                // margin-right: 1rem;
+
                 h6 {
                     color: white;
-                    // margin-bottom: 1.2rem;
                 }
                 a {
                     color: #797979;
                     text-decoration: none;
-                    // margin-bottom: 0.5rem;
                     display: block;
                     font-size: .7rem;
                     margin-left: 0;
