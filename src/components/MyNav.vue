@@ -39,7 +39,6 @@ methods: {},
 };
 </script>
 <style scoped lang="scss">
-// @use "../styles/partials/variables" as *;
 .nav-links{
     margin-right: 5rem;
     list-style: none;

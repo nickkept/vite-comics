@@ -14,7 +14,6 @@ methods: {},
 };
 </script>
 <style scoped lang="scss">
-// @use "./partials/variables" as *;
     .black-section{
         background-image: url('/jumbotron.jpg');
         background-repeat: no-repeat;
