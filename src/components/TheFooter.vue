@@ -43,42 +43,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="row d-flex">
-                <div class="col">
-                    <ul>
-                        <li>
-                            <h5>DC COMICS</h5>
-                        </li>
-                        <li v-for="element in dcComicsList">
-                            <a :href="element.url">{{ element.text }}</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <h5>SHOP</h5>
-                        </li>
-                        <li v-for="element in shopList">
-                            <a :href="element.url">{{ element.text }}</a>
-                        </li>
-                    </ul>
-                </div>
-                <ul>
-                    <li>
-                        <h5>DC</h5>
-                    </li>
-                    <li v-for="element in dcList">
-                        <a :href="element.url">{{ element.text }}</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h5>SITES</h5>
-                    </li>
-                    <li v-for="element in sitesList">
-                        <a :href="element.url">{{ element.text }}</a>
-                    </li>
-                </ul>
-            </div> -->
         </div>
     </div>
 </template>
